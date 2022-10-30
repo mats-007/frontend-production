@@ -1,0 +1,46 @@
+
+.img-circle{
+    display: block;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.container-fluid{
+    background-image: url('../../../../assets/images/fondo-aboutMe.png');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+p{
+    color: #524544;
+    font-size: 22px;
+}
+
+span{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1{
+    color: #F6200F;
+    font-size: 42px;
+    padding: 8px;
+}
+
+@media (max-width: 750px) {
+    /* Para mobile */
+  
+    .container-fluid h1{
+        font-size: 43px;
+
+    }
+
+    .container-fluid span{
+        font-size: 19px;
+
+    }
+  
+    
+  }

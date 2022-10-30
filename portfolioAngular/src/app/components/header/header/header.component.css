@@ -1,0 +1,41 @@
+#header {
+  background-color: #f6200f;
+  padding: 10px 0;
+}
+
+#ap-logo {
+  width: 190px;
+}
+
+.banner {
+  background-image: url("../../../../assets/images/fondo-contacto.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cohete {
+  height: 381px;
+}
+
+.input-home {
+  color: white;
+  font-size: 17px;
+  border: 1px solid white;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+@media (max-width: 750px) {
+  /* Para mobile */
+
+  #header .container{
+      width: 100%;
+  }
+
+  #header p{
+    padding: 0px 2px;
+  }
+
+  
+}

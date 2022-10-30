@@ -1,0 +1,30 @@
+footer,
+footer a {
+  color: red;
+  font-weight: 100;
+}
+
+footer .fa-linkedin-in {
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  border: 0px;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  padding: 8px 0 0 0;
+  border-radius: 80px;
+  margin: 0 8px;
+}
+footer .fa-github {
+  color: white;
+  background-color: red;
+  font-size: 20px;
+  border: 0px;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  padding: 8px 0 0 0;
+  border-radius: 80px;
+  margin: 0 8px;
+}

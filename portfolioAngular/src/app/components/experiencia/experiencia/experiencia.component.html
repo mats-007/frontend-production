@@ -1,0 +1,43 @@
+<section id="experiencia" class="container">
+    <div class="row">
+        <div class="col-12 pt-5 pb-4">
+            <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
+        </div>
+        <div class="col-lg-2">
+            <button type="button" class="btn btn-dark mb-3" routerLink="/nuevaexp" *ngIf="isLogged">
+                Nueva Experiencia
+            </button>
+        </div>
+    </div>
+    <div class="row shadow bg-white rounded">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-2 p-5 my-auto d-none d-sm-block">
+                    <i class="fas fa-briefcase work-icon"></i>
+                </div>
+                <div class="col-12- col-sm-10 p-3">
+                    <h3>Argentina Programa programador fullstack jr</h3>
+                    <h4></h4>
+                    <h5>2021 - 2022</h5>
+                    <p>Desarrollo de capa de aplicación tanto front-end como back-end, programacion de Base de Datos SQL
+                        , manejo de GitHub , Programacion Orientada a Objetos. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12- col-sm-10 p-3" *ngFor="let Experiencia of expe">
+                    <h3>{{Experiencia.nombreE}}</h3>
+                    <p>{{Experiencia.descripcionE}}</p>
+                    <div *ngIf="isLogged">
+                        <button class="btn-edit btn-light" routerLink="/editexp/{{Experiencia.id}}">
+                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                        <button class="btn-delete btn-danger" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash-fill"></i> BORRAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

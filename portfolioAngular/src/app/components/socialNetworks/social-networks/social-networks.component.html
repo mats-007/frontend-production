@@ -1,0 +1,12 @@
+<div class="socialNetworks">
+        <a href=""><i class="fab fa-github redes"></i></a>
+        <a href=""><i class="fab fa-linkedin-in redes"></i></a>
+        <img src="../../../../assets/images/login.png" alt="login" title="login">
+
+</div>
+
+<div class="box">
+        <button type="button" id="btnEnviar" name="btnEnviar" class="btn btn-primary px-4" (click)="login()" *ngIf="!isLogged">Ingresar</button>
+
+        <button type="button" id="btnEnviar" name="btnEnviar" class="btn btn-primary px-4" (click)="onLogOut()" *ngIf="isLogged">Cerrar Sesion</button>
+</div>
