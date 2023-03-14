@@ -10,7 +10,8 @@ import { persona } from '../model/persona.model';
 })
 export class PersonaService {
  // url = 'http://localhost:8080/personas/';
-  url = 'https://backend-productionn.herokuapp.com/personas';
+  url = 'https://web-production-1c5c.up.railway.app/personas';
+  // url = 'https://backend-productionn.herokuapp.com/personas';
 
   constructor(private http: HttpClient) { }
 

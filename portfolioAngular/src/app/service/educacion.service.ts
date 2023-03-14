@@ -8,7 +8,8 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
   //URL = 'http://localhost:8080/educacion/';
-  URL = 'https://backend-productionn.herokuapp.com/educacion';
+  URL = 'https://web-production-1c5c.up.railway.app/educacion';
+  // URL = 'https://backend-productionn.herokuapp.com/educacion';
 
   constructor(private httpClient : HttpClient) { }
 

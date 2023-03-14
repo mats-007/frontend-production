@@ -13,7 +13,8 @@ import { LoginUsuario } from '../model/login-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-   authUrl = 'https://back-end-prod.herokuapp.com/auth/';
+   authUrl = 'https://web-production-1c5c.up.railway.app/auth/';
+  //  authUrl = 'https://back-end-prod.herokuapp.com/auth/';
   //authUrl = 'http://localhost:8080/auth/';
 
   constructor(private httpClient: HttpClient) { }
